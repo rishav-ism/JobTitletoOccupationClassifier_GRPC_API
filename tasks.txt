@@ -1,0 +1,11 @@
+A Title to Onet Classifier API:
+
+Tasks:
+
+1. Get the Keras model ready.
+2. Do predictions with it.
+3. Study about gRPC
+4. Implement the API
+5. Study about Kubernetes
+6. Implement and deploy it over there.
+
