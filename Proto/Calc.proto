@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package calc;
+
+service Calculator {
+
+rpc GetOnet(titleRequest) returns (OnetReply) {}
+
+}
+
+message titleRequest{
+
+string title=1;
+int32 count=2;
+}
+
+message StringInt{
+	
+	string name=1;
+	float score=2;
+}
+
+message OnetReply{
+
+repeated StringInt result = 1;
+
+}
+
+ 
